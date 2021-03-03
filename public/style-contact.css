@@ -1,0 +1,122 @@
+/*RESET DEFAULT SETTINGS*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Customization CSS Jessica Parker*/
+
+
+
+
+
+/* Jessica Parker padding on nav bar so it won't hug the left side of page*/
+a{
+	padding:15px;
+}
+
+/* nav bar padding so the elements are spaced out properly*/
+nav{
+	padding:5;
+}
+
+/*adds spacing around the input fields*/
+.col-md-4{
+	padding:5px;
+}
+
+
+/*adds a background color of cool grey tone*/
+body {
+    
+    background-color:#D3D3D3
+}
+
+
+/* presents a box around body content*/
+.box{
+	margin-top: 50px; 
+	margin-left: 10px;
+	margin-right: 10px;
+	width:300;
+	padding:40px;
+	background:white;
+	border:1px solid #333;
+	
+	}
+
+/* Contact Me heading settings, larger and different color*/
+h1{
+	font-size: 30px;
+	margin-bottom:15px;
+	color: blue;
+	display:flex;
+	align-items:left;
+
+}
+
+
+/* Will make links to social media center to page */
+ul, h3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+/*footer settings, to center and add background color */
+footer {
+	height: 50px;
+	width: 100%;
+	color: white;
+	background-color: grey;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+

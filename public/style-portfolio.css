@@ -1,0 +1,109 @@
+/*RESET DEFAULT SETTINGS*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Customization CSS Jessica Parker*/
+
+
+
+/* nav bar padding so the elements are spaced out properly*/
+nav{
+    padding:5;
+
+}
+
+/* Jessica Parker padding on nav bar so it won't hug the left side of page*/
+a {
+	padding:15px;
+}
+
+/*adds equal spacing between each placeholder*/
+img{
+	padding:15;
+	margin-bottom:20px;
+}
+
+/*title Portfolio settings*/
+h2{
+	font-size:30px;
+	font-family: Poppins, sans-serif;
+}
+
+/*adds a background color of cool grey tone*/
+body {
+	background-color:#D3D3D3
+}
+
+/* presents a box around body content*/
+.container{
+	/* margin-top: 50px; 
+	margin-left: 30px;
+	margin-right: 40px;
+	margin-bottom: 80px;
+	width:300; */
+	padding:30px;
+	background:white;
+	border:1px solid #333;
+	
+	}
+
+/*footer settings, to center and add background color */
+footer{
+	height: 50px;
+	width: 100%;
+	color: white;
+	background-color: grey;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Poppins, sans-serif;
+}
+
+
